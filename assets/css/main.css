@@ -2211,7 +2211,11 @@ input, select, textarea {
 			font-size: 1.65em;
 			margin: 0 0 1.5em 0;
 		}
-
+	.box ul {
+		line-height: 1.65em;
+		font-size: 1.65em;
+		color: white
+	}
 	.box.feature {
 		text-align: center;
 	}
@@ -2556,10 +2560,10 @@ input, select, textarea {
 	#main {
 		background: var(--background-color);
 		/* border-top: solid 5px #fff; */
-		border-bottom: solid 5px #c1cac5;
+		border-bottom: solid 200px var(--background-color);
 		border-top-width: 35px;
 		border-bottom-width: 10px;
-		padding: 6em 0 6em 0;
+		padding: 6em 0 30em 0;
 	}
 
 /* Sidebar + Content */
